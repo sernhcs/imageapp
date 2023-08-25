@@ -3,11 +3,11 @@
     <!-- sidebar -->
     <v-main>
       <!-- cards -->
-      a
+      <Sidebar></Sidebar>
     </v-main>
   </v-app>
 </template>
 
-<script>
-
+<script setup>
+import Sidebar from './components/Sidebar.vue';
 </script>
